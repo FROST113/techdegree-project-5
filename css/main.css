@@ -1,6 +1,7 @@
 /** Base styles for mobile  **/
 
 .container {
+    display: block;
     max-width: 360px;
     text-align: center;
     width: 100%;
