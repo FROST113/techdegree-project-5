@@ -5,9 +5,9 @@ lightbox.option({
      'wrapAround': true,
    });
 
-   $('.search-filter').keyup(function(){
-    let userSearch = $('.search-filter').val();
-	  userSearch = userSearch.toLowerCase();
+$('.search-filter').keyup(function(){
+  let userSearch = $('.search-filter').val();
+	userSearch = userSearch.toLowerCase();
 
     $('.anchor').each(function(){
 
